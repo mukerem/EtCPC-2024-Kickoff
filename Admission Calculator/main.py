@@ -8,7 +8,7 @@ def solve():
         score = round(score, 3)
         a.append((-score, S))
     a.sort()
-    for i, j in a:
-        print(j, -i)
+    for score, name in a:
+        print(f"{name} {-score:.3f}")
         
 solve()
