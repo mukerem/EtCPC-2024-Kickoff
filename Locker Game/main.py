@@ -1,7 +1,11 @@
 def solve():
     n, k = map(int, input().split())
-    a = list(map(int, input().split()))
 
+    if k:
+        a = list(map(int, input().split()))
+    else:
+        a = []
+        
     final = [0] * (n+1)
     current = [0] * (n+1)
     for i in a:

@@ -95,6 +95,7 @@ def solve():
     a, b, c, d, e, f = map(int, input().split())
     x = solution1(a, b, c, d, e, f) + solution2(a, b, c, d, e, f) + solution3(a, b, c, d, e, f)
     x = set(x)
+    # print(x)
     if x:
         print(sum(x))
     else:
