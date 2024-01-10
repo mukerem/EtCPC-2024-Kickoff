@@ -41,10 +41,10 @@ for i in range(1, 11):
 
 for i in range(11, 21):
     t = random.randint(1000, int(1e4))
-    generate(i, t, 1, int(1e12), 5, 10, 4, 18)
+    generate(i, t, 1, int(1e12), 5, 12, 4, 15)
 
 for i in range(21, 31):
     t = random.randint(int(9e4), int(1e5))
-    generate(i, t, int(1e12), int(1e18), 10, 32, 10, 18)
+    generate(i, t, int(1e12), int(1e18), 12, 16, 12, 15)
 
 print("30 test cases created in the 'testcases' folder.")
